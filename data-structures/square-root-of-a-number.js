@@ -54,3 +54,18 @@ const floorSqrtK = x => {
   }
   return hi;
 };
+/**
+ * Find the square root of a number.
+ *
+ * @param x Number whose square root needs to be calculated.
+ */
+const floorSqrt1 = x => {
+  console.log("x: ", x);
+  let i;
+  for (i = 0; Math.floor(i * i) <= x; i = i + 0.01) {
+    if (Math.floor(i * i) === x) {
+      return Math.floor(i);
+    }
+  }
+  return Math.floor(i);
+};
