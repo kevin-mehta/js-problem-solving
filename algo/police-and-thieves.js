@@ -33,3 +33,21 @@ const catchThievesK = (arr, n, k) => {
   }
   return count;
 };
+
+function catchThievesKGFG(arr, N, K) {
+  let itr = 0;
+  let count = 0;
+  while (itr <= N - 1) {
+    if (arr[itr] === "P" && itr - K >= 0 && itr - K <= N) {
+      let tempSlicedArr = arr.slice(itr - K, itr);
+      tempSlicedArr.includes("T") && count++;
+    } else if (arr[itr] === "P" && itr + K >= 0 && itr - K <= N) {
+      let tempSlicedArr = arr.slice(K, itr + K + 1);
+      tempSlicedArr.includes("T") && count++;
+    }
+    itr++;
+  }
+  return count;
+}
+
+const catchThieves = (arr, n, k) => {};
