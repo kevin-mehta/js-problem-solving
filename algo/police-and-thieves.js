@@ -50,4 +50,56 @@ function catchThievesKGFG(arr, N, K) {
   return count;
 }
 
-const catchThieves = (arr, n, k) => {};
+const catchThieves = (arr, N, K) => {
+  let res = 0;
+  let thi = [];
+  let pol = [];
+  for (let i = 0; i < N; i++) {
+    if (arr[i] === "P") {
+      pol.push(i);
+    } else if (arr[i] === "T") {
+      thi.push(i);
+    }
+  }
+  let l = 0,
+    r = 0;
+  while (l < thi.length && r < pol.length) {
+    if (Math.abs(thi[l] - pol[r]) <= K) {
+      res++;
+      l++;
+      r++;
+    } else if (thi[l] < pol[r]) {
+      l++;
+    } else {
+      r++;
+    }
+  }
+  return res;
+};
+
+function catchThievesGFG(arr, N, K) {
+  let res = 0;
+  let thi = [];
+  let pol = [];
+  for (let i = 0; i < N; i++) {
+    if (arr[i] == "P") {
+      pol.push(i);
+    } else if (arr[i] == "T") {
+      thi.push(i);
+    }
+  }
+  let l = 0,
+    r = 0;
+  while (l < thi.length && r < pol.length) {
+    if (Math.abs(thi[l] - pol[r]) <= K) {
+      res++;
+      l++;
+      r++;
+    } else if (thi[l] < pol[r]) {
+      l++;
+    } else {
+      r++;
+    }
+  }
+  return res;
+}
