@@ -27,6 +27,12 @@
  *
  * Level: Easy
  */
+
+/**
+ * Final Approach - Kevin Mehta
+ *
+ * @param card String to find the word "Nemo".
+ */
 const findNemoK = sentence => {
   const strNemo = "Nemo";
   let arrSentence = sentence.split(" ");
@@ -42,6 +48,11 @@ const findNemoK = sentence => {
   return strFinalOutput;
 };
 
+/**
+ * Recommended Approach.
+ *
+ * @param card String to find the word "Nemo".
+ */
 const findNemo = sentence => {
   const index = sentence.split(" ").findIndex(e => e === "Nemo");
   return index >= 0 ? `I found Nemo at ${index + 1}!` : "I can't find Nemo :(";
