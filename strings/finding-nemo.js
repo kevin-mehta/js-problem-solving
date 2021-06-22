@@ -37,13 +37,13 @@
  * @param card String to find the word "Nemo".
  */
 const findNemoK = sentence => {
-  const strNemo = "Nemo";
-  let arrSentence = sentence.split(" ");
+  const strNemo = 'Nemo';
+  let arrSentence = sentence.split(' ');
   let strFinalOutput = "I can't find Nemo :(";
   if (arrSentence.includes(strNemo)) {
     for (var i = 0; i < arrSentence.length; i++) {
       if (arrSentence[i] === strNemo) {
-        strFinalOutput = "I found Nemo at " + (i + 1) + "!";
+        strFinalOutput = 'I found Nemo at ' + (i + 1) + '!';
         break;
       }
     }
@@ -57,6 +57,6 @@ const findNemoK = sentence => {
  * @param card String to find the word "Nemo".
  */
 const findNemo = sentence => {
-  const index = sentence.split(" ").findIndex(e => e === "Nemo");
+  const index = sentence.split(' ').findIndex(e => e === 'Nemo');
   return index >= 0 ? `I found Nemo at ${index + 1}!` : "I can't find Nemo :(";
 };
