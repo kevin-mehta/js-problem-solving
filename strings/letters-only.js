@@ -20,7 +20,7 @@
  *
  * @param str String whose letters needs to be fetched.
  */
-const lettersOnly = str => str.replace(/[^A-Za-z]/g, '');
+const lettersOnlyK = str => str.replace(/[^A-Za-z]/g, '');
 
 /**
  * Recommended Approach
