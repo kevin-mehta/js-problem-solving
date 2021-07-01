@@ -1,0 +1,1 @@
+const sharedLettersK = (str1, str2) => {}
