@@ -53,8 +53,18 @@
  * Level: Easy
  */
 const totalSalesK = (sales, product) => {
+
   let isProductPresent = sales[0].includes(product);
   console.log("isProductPresent: ", isProductPresent);
+
+  let productIndex = sales[0].findIndex(val => val === product);
+  console.log("productIndex: ", productIndex);
+
+  if(isProductPresent) {
+
+  } else {
+    return "Product not found";
+  }
 
   // if(sales[0]) {} else {
     
