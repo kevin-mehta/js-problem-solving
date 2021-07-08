@@ -52,3 +52,11 @@
  *
  * Level: Easy
  */
+const totalSalesK = (sales, product) => {
+  let isProductPresent = sales[0].includes(product);
+  console.log("isProductPresent: ", isProductPresent);
+
+  // if(sales[0]) {} else {
+    
+  // }
+};
