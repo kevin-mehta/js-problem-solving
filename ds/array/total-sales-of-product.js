@@ -52,6 +52,15 @@
  *
  * Level: Easy
  */
+
+/**
+ * Final Approach - Kevin Mehta
+ *
+ * @param sales Array containing product names and sales data.
+ *
+ * @param product String containing product name whose total
+ * sale needs to be calculated.
+ */
 const totalSalesK = (sales, product) => {
   let productIndex = sales[0].findIndex(val => val === product);
   if (productIndex < 0) return 'Product not found';
