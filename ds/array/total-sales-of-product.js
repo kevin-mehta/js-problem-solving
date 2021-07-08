@@ -8,14 +8,14 @@
  * where the first row lists the names of products, and
  * each of row after that lists the sales of the product
  * for each day (over some time range).
- * 
+ *
  * [
  *   ["A", "B", "C"],
  *   [ 2 ,  7 ,  1 ],
  *   [ 3 ,  6 ,  6 ],
  *   [ 4 ,  5 ,  5 ]
  * ]
- * 
+ *
  * Write a function that receives:
  * (i) A sales table sales as shown above.
  * (ii) The name of a product product.
@@ -30,7 +30,7 @@
  *  [ 4 ,  5 ,  5 ]
  * ], "A") ➞ 9
  * // 2 + 3 + 4 = 9
- * 
+ *
  * totalSales([
  *  ["A", "B", "C"],
  *  [ 2 ,  7 ,  1 ],
@@ -38,7 +38,7 @@
  *  [ 4 ,  5 ,  5 ]
  * ], "C") ➞ 12
  * // 1 + 6 + 5 = 12
- * 
+ *
  * totalSales([
  *  ["A", "B", "C"],
  *  [ 2 ,  7 ,  1 ],
@@ -53,20 +53,13 @@
  * Level: Easy
  */
 const totalSalesK = (sales, product) => {
-
-  let isProductPresent = sales[0].includes(product);
-  console.log("isProductPresent: ", isProductPresent);
-
   let productIndex = sales[0].findIndex(val => val === product);
-  console.log("productIndex: ", productIndex);
-
-  if(isProductPresent) {
-
-  } else {
-    return "Product not found";
+  if (productIndex < 0) return 'Product not found';
+  else {
+    return sales.reduce(
+      (accumulator, currentValue, currentIndex, array) =>
+        currentIndex > 0 ? (accumulator += currentValue[productIndex]) : 0,
+      0
+    );
   }
-
-  // if(sales[0]) {} else {
-    
-  // }
 };
