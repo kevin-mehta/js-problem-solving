@@ -7,9 +7,10 @@ const releaseYear = album => {
     '2019': ['thank u next', 'Magdalene', 'Ode to Joy'],
     '2020': ['Rough and Rowdy Ways', 'folklore', 'Future Nostalgia', 'Colores']
   };
-  let temp = Object.keys(objAlbums).find(key => {
-    return objAlbums[key].includes(album);
+  return Object.keys(objAlbums).find(key => {
+    let tempReleaseYear = objAlbums[key].includes(album);
+    return tempReleaseYear && tempReleaseYear.toString().trim() !== ''
+      ? tempReleaseYear
+      : 'Unknown';
   });
-  console.log(temp);
-  return '';
 };
