@@ -1,5 +1,5 @@
 const releaseYear = album => {
-  const albums = {
+  const objAlbums = {
     '2015': ['Vulnicura', 'Honeymoon', 'Rebel Heart'],
     '2016': ['Lemonade', 'Blackstar', 'A Moon Shaped Pool'],
     '2017': ['Flower Boy', 'Antisocialites'],
@@ -7,5 +7,9 @@ const releaseYear = album => {
     '2019': ['thank u next', 'Magdalene', 'Ode to Joy'],
     '2020': ['Rough and Rowdy Ways', 'folklore', 'Future Nostalgia', 'Colores']
   };
-  return "";
+  let temp = Object.keys(objAlbums).find(key => {
+    return objAlbums[key].includes(album);
+  });
+  console.log(temp);
+  return '';
 };
