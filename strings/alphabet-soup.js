@@ -4,7 +4,7 @@
  * https://edabit.com/challenge/bHDbMWpdeNaw23jqT
  *
  * Problem Statement:
- * Create a function that takes a string and returns a string
+ * Create a  that takes a string and returns a string
  * with its letters in alphabetical order.
  *
  * Examples:
