@@ -4,7 +4,7 @@
  * https://edabit.com/challenge/c23dFfNiKbnguSQtq
  *
  * Problem Statement:
- * You're given a string of words.
+ * You're  a string of words.
  * You need to find the word "Nemo", and return a
  * string like this:
  * "I found Nemo at [the order of the word you find nemo]!".
