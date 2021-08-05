@@ -11,7 +11,7 @@
  * second one has three dots, the third one has 6 dots and so on.
  *
  * Write a function that returns the number of dots when given
- * its  triangle number of the sequence.
+ * its corresponding triangle number of the sequence.
  *
  * Examples:
  * triangle(1) ➞ 1
