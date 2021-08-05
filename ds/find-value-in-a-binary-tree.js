@@ -1,5 +1,5 @@
 /**
- * Find Value in a Binary
+ * Find Value in a Binary Tree
  *
  * https://edabit.com/challenge/GGDMJ33wg8y3EHQfP
  *
