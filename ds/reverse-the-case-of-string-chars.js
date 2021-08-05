@@ -1,5 +1,5 @@
 /**
- * Reverse the Case of all String characters
+ * Reverse the Case of all String
  *
  * https://edabit.com/challenge/PTvYKkvf7oytHmJFm
  *
@@ -27,7 +27,7 @@
  */
 const reverseCaseK = str => {
   return str
-    .split("")
+    .split('')
     .map(value => {
       if (/[A-Z]/.test(value)) {
         return value.toLowerCase();
@@ -37,7 +37,7 @@ const reverseCaseK = str => {
         return value;
       }
     })
-    .join("");
+    .join('');
 };
 /**
  * Reverse the Case of all String characters
@@ -50,4 +50,4 @@ const reverseCaseK = str => {
 const reverseCase = str =>
   [...str]
     .map(c => (c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()))
-    .join("");
+    .join('');
