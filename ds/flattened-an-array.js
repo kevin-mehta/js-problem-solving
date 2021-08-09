@@ -1,9 +1,9 @@
 /**
- * Flattened an Array (w/o using inbuilt Array.prototype.flat()
+ * Flattened an Arra (w/o using inbuilt Array.prototype.flat()
  * method)
- * 
+ *
  * Reference: Array.prototype.flat() - JavaScript | MDN
- * 
+ *
  * @param arr Array need to be flattened.
  * @param depth The depth level specifying how deep a nested
  * array structure should be flattened. Defaults to 1.
