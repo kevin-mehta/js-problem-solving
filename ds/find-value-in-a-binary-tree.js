@@ -3,7 +3,7 @@
  *
  * https://edabit.com/challenge/GGDMJ33wg8y3EHQfP
  *
- * Problem Statement:
+ * Problem :
  * An array that represents a Binary Tree is in the
  * following form.
  * binaryTree = [val, arrLeft, arrRight]
