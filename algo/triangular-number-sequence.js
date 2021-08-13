@@ -21,7 +21,7 @@
  * triangle(2153) ➞ 2318781
  *
  * Notes:
- * Check the Resources for info on triangular number .
+ * Check the Resources for info on triangular number sequence.
  *
  * Level: Easy
  */
