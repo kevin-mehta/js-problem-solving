@@ -13,7 +13,7 @@
  * reverseCase("sPoNtAnEoUs") ➞ "SpOnTaNeOuS"
  *
  * Notes:
- *
+ * NA
  *
  * Level: Easy
  */
