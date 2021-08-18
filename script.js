@@ -20,7 +20,7 @@
 /**
  * Reverse the Case of all String characters
  *
- * Final Approach - 
+ * Final Approach - Kevin Mehta
  *
  * @param str String whose characters cases needs to be
  * reversed.
