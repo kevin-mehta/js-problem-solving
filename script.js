@@ -15,11 +15,11 @@
  * Notes:
  * NA
  *
- * Level: 
+ * Level: Easy
  */
 /**
  * Reverse the Case of all String characters
- * 
+ *
  * Final Approach - Kevin Mehta
  *
  * @param str String whose characters cases needs to be
@@ -27,7 +27,7 @@
  */
 const reverseCaseK = str => {
   return str
-    .split("")
+    .split('')
     .map(value => {
       if (/[A-Z]/.test(value)) {
         return value.toLowerCase();
@@ -37,11 +37,11 @@ const reverseCaseK = str => {
         return value;
       }
     })
-    .join("");
+    .join('');
 };
 /**
  * Reverse the Case of all String characters
- * 
+ *
  * Recommended Approach
  *
  * @param str String whose characters cases needs to be
@@ -50,5 +50,4 @@ const reverseCaseK = str => {
 const reverseCase = str =>
   [...str]
     .map(c => (c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()))
-    .join("");
-
+    .join('');
