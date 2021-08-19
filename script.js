@@ -15,7 +15,7 @@
  * Notes:
  * NA
  *
- * Level: Easy
+ * Level:
  */
 /**
  * Reverse the Case of all String characters
