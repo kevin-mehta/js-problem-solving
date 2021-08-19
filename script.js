@@ -1,5 +1,5 @@
 /**
- * Reverse the Case of all String characters
+ * Reverse the Case of all String 
  *
  * https://edabit.com/challenge/PTvYKkvf7oytHmJFm
  *
