@@ -8,7 +8,7 @@
  * Every bar needs to be on a new line and its length
  * corresponds to the numbers in the array passed as an
  * argument. The second argument of the function represents
- * the character to be used for the bar.
+ * the character to be used for the .
  * histogram(arr, char) ➞ str
  *
  * Examples:
