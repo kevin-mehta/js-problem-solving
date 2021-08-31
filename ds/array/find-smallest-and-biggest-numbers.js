@@ -3,7 +3,7 @@
  * https://edabit.com/challenge/Q3n42rEWanZSTmsJm
  *
  * Problem Statement:
- * Create a function that takes an array of numbers and
+ * Create a function that takes an array of numbers
  * return both the minimum and maximum numbers, in that order.
  *
  * Examples:
