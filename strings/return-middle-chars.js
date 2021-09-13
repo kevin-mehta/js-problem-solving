@@ -23,7 +23,7 @@
  */
 
 /**
- * Final Approach - Kevin 
+ * Final Approach - Kevin Mehta
  *
  * @param str String whose middle characters needs to be
  * found.
