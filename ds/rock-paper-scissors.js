@@ -4,7 +4,7 @@ const rpsK = (p1, p2) => {
     : (p1 === 'Rock' && p2 === 'Paper') ||
       (p1 === 'Paper' && p2 === 'Scissors') ||
       (p1 === 'Scissors' && p2 === 'Rock')
-    ? 'The winner is '
+    ? 'The winner is p2'
     : 'The winner is p1';
 };
 
