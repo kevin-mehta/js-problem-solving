@@ -21,6 +21,7 @@
  *
  * Level: Easy
  */
+
 let objOriginal = [
   { name: 'test01', age: 10 },
   { name: 'test02', age: 20 },
@@ -31,8 +32,12 @@ let objChanged = [
   { name: 'test02', age: 20 },
   { name: 'test03', age: 20 },
 ];
+
 /**
- * Identify whether a JS object has changed.
+ * Final Approach - Kevin Mehta
+ *
+ * @param str String whose letters needs to be arranged
+ * in an alphabetical order.
  */
 getObjChanges = () => {
   let changes, i, j, len, item;
