@@ -14,13 +14,10 @@ getObjChanges = () => {
     changes = false;
   }
   changes = [];
-  for (i = 0, len = objOriginal.length; j < len; i++) {
-    console.log('********** Inside for');
-    console.log('i: ', i);
-    // console.log('j: ', j);
+  for (i = 0, j = 0, len = objOriginal.length; j < len; i = ++j) {
     item = objChanged[i];
-    if(JSON.stringify(objChanged[i]) === JSON.stringify(objOriginal[i])) {
-      changes.push(objChanged[i]);
+    if (JSON.stringify(item) !== JSON.stringify(objOriginal[i])) {
+      changes.push(item);
     }
   }
   return changes;
