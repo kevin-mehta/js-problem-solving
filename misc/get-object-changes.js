@@ -10,14 +10,10 @@
  * are changed.
  *
  * Examples:
- * alphabetSoup("hello") ➞ "ehllo"
+ * getObjChanges()
  *
  * Notes:
- * You can assume numbers and punctuation symbols won't
- * be included in test cases. You'll only have to deal
- * with single word, alphabetic characters.
- *
- * 
+ * You can take static arrays for the implementation.
  */
 
 let objOriginal = [
@@ -33,9 +29,6 @@ let objChanged = [
 
 /**
  * Final Approach - Kevin Mehta
- *
- * @param str String whose letters needs to be arranged
- * in an alphabetical order.
  */
 getObjChanges = () => {
   let changes, i, j, len, item;
