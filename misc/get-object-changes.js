@@ -1,25 +1,23 @@
 /**
- * Alphabet Soup
+ * Identify whether a JavaScript object has changed
  *
- * https://edabit.com/challenge/bHDbMWpdeNaw23jqT
+ * https://stackoverflow.com/questions/
+ * 38277385/design-pattern-to-check-if-a-javascript-object-has-changed
  *
  * Problem Statement:
- * Create a function that takes a string and returns a string
- * with its letters in alphabetical order.
+ * Create a function that takes 2 arrays containing original and 
+ * changed objects and return an array containing list of object that
+ * are changed.
  *
  * Examples:
  * alphabetSoup("hello") ➞ "ehllo"
- * alphabetSoup("edabit") ➞ "abdeit"
- * alphabetSoup("hacker") ➞ "acehkr"
- * alphabetSoup("geek") ➞ "eegk"
- * alphabetSoup("javascript") ➞ "aacijprstv"
  *
  * Notes:
  * You can assume numbers and punctuation symbols won't
  * be included in test cases. You'll only have to deal
  * with single word, alphabetic characters.
  *
- * Level: Easy
+ * 
  */
 
 let objOriginal = [
