@@ -9,9 +9,14 @@ let objChanged = [
   { name: 'test03', age: 20 },
 ];
 getObjChanges = () => {
-  let changes;
-  if(JSON.stringify(objOriginal) === JSON.stringify(objChanged)) {
+  let changes, i, j;
+  if (JSON.stringify(objOriginal) === JSON.stringify(objChanged)) {
     changes = false;
+  }
+  for (i = 0, j = 0, len = objOriginal.length; j < len; i = ++j) {
+    console.log('********** Inside for');
+    console.log('i: ', i);
+    console.log('j: ', j);
   }
   return changes;
 };
