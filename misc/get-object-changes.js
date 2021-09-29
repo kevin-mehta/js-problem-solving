@@ -10,6 +10,8 @@ let objChanged = [
 ];
 getObjChanges = () => {
   let changes = [];
-
-  return;
+  if(JSON.stringify(objOriginal) === JSON.stringify(objChanged)) {
+    changes = false;
+  }
+  return changes;
 };
