@@ -10,6 +10,6 @@ let objChanged = [
 ];
 getObjChanges = () => {
   let changes = [];
-  
-  return changes;
+
+  return;
 };
