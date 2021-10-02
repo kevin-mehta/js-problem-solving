@@ -17,7 +17,7 @@
  * getMiddle("A") ➞ "A"
  *
  * Notes:
- * All test cases contain a single word (as a string).
+ * All test cases contain a  word (as a string).
  *
  * Level: Easy
  */
@@ -28,7 +28,7 @@
  * @param str String whose middle characters needs to be
  * found.
  */
-const getMiddleK = str => {
+const getMiddleK = (str) => {
   let slen = str.length;
   let midd = slen / 2;
   let pluckedChars = [];
@@ -47,7 +47,7 @@ const getMiddleK = str => {
  * @param str String whose middle characters needs to be
  * found.
  */
-const getMiddle = str => {
+const getMiddle = (str) => {
   let start = Math.ceil(str.length / 2) - 1;
   let end = Math.floor(str.length / 2) + 1;
   return str.substring(start, end);
