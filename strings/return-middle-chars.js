@@ -17,7 +17,7 @@
  * getMiddle("A") ➞ "A"
  *
  * Notes:
- * All test cases contain a  word (as a string).
+ * All test cases contain a single word (as a string).
  *
  * Level: Easy
  */
