@@ -31,7 +31,7 @@
  */
 
 /**
- * Final Approach - Kevin Mehta
+ * Final Approach - Kevin
  *
  * @param arr
  * @param char
