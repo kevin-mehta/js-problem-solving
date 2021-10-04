@@ -23,7 +23,7 @@ let objOriginal = [
 ];
 let objChanged = [
   { name: 'test01', age: 10 },
-  { name: 'test02', age: 20 },
+  { name: 'test04', age: 20 },
   { name: 'test03', age: 20 },
 ];
 
