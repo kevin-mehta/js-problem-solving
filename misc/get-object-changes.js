@@ -13,7 +13,7 @@
  * getObjChanges()
  *
  * Notes:
- * You can take static arrays for the implementation.
+ * You can take static arrays for the .
  */
 
 let objOriginal = [
