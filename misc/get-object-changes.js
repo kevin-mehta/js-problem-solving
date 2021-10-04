@@ -5,7 +5,7 @@
  * 38277385/design-pattern-to-check-if-a-javascript-object-has-changed
  *
  * Problem Statement:
- * Create a function that takes 2 arrays containing original and 
+ * Create a function that takes 2 arrays containing original and
  * changed objects and return an array containing list of object that
  * are changed.
  *
@@ -13,7 +13,7 @@
  * getObjChanges()
  *
  * Notes:
- * You can take static arrays for the .
+ * You can take static arrays for the implementation.
  */
 
 let objOriginal = [
