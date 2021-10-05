@@ -1,9 +1,9 @@
-const sort = arr => {
+const sort = (arr) => {
   let len = arr.length;
   bubbleSort(arr, len);
   return arr;
 };
-const bubbleSort = (arr, n) => {
+const  = (arr, n) => {
   for (let i = 0; i < n - 1; i++) {
     for (let j = 0; j < n - i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
