@@ -12,7 +12,7 @@ const bubbleSort = (arr, n) => {
     }
   }
 };
-const swap = (arr, xp, yp) => {
+const  = (arr, xp, yp) => {
   let temp = arr[xp];
   arr[xp] = arr[yp];
   arr[yp] = temp;
