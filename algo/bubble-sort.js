@@ -1,4 +1,4 @@
-const  = (arr) => {
+const sort = (arr) => {
   let len = arr.length;
   bubbleSort(arr, len);
   return arr;
