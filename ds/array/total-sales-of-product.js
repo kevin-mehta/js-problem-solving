@@ -10,7 +10,7 @@
  * for each day (over some time range).
  *
  * [
- *   ["A", "B", "C"],
+ *   ["A", "B", "C"]
  *   [ 2 ,  7 ,  1 ],
  *   [ 3 ,  6 ,  6 ],
  *   [ 4 ,  5 ,  5 ]
@@ -62,7 +62,7 @@
  * sale needs to be calculated.
  */
 const totalSalesK = (sales, product) => {
-  let productIndex = sales[0].findIndex(val => val === product);
+  let productIndex = sales[0].findIndex((val) => val === product);
   if (productIndex < 0) return 'Product not found';
   else {
     return sales.reduce(
