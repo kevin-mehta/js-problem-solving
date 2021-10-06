@@ -10,7 +10,7 @@
  * for each day (over some time range).
  *
  * [
- *   ["A", "B", "C"]
+ *   ["A", "B", "C"],
  *   [ 2 ,  7 ,  1 ],
  *   [ 3 ,  6 ,  6 ],
  *   [ 4 ,  5 ,  5 ]
