@@ -1,4 +1,4 @@
-let itr = 0;
+let  = 0;
 let count = 0;
 const catchThievesK1 = (arr, n, k) => {
   traverseArray(arr, n, k, itr);
@@ -6,12 +6,12 @@ const catchThievesK1 = (arr, n, k) => {
 };
 const traverseArray = (arr, n, k, itr) => {
   if (itr <= n - 1) {
-    if (arr[itr] === "P" && itr - k >= 0 && itr - k <= n) {
+    if (arr[itr] === 'P' && itr - k >= 0 && itr - k <= n) {
       let tempSlicedArr = arr.slice(itr - k, itr);
-      tempSlicedArr.includes("T") && count++;
-    } else if (arr[itr] === "P" && itr + k >= 0 && itr - k <= n) {
+      tempSlicedArr.includes('T') && count++;
+    } else if (arr[itr] === 'P' && itr + k >= 0 && itr - k <= n) {
       let tempSlicedArr = arr.slice(k, itr + k + 1);
-      tempSlicedArr.includes("T") && count++;
+      tempSlicedArr.includes('T') && count++;
     }
     itr++;
     traverseArray(arr, n, k, itr);
@@ -22,12 +22,12 @@ const catchThievesK = (arr, n, k) => {
   let itr = 0;
   let count = 0;
   while (itr <= n - 1) {
-    if (arr[itr] === "P" && itr - k >= 0 && itr - k <= n) {
+    if (arr[itr] === 'P' && itr - k >= 0 && itr - k <= n) {
       let tempSlicedArr = arr.slice(itr - k, itr);
-      tempSlicedArr.includes("T") && count++;
-    } else if (arr[itr] === "P" && itr + k >= 0 && itr - k <= n) {
+      tempSlicedArr.includes('T') && count++;
+    } else if (arr[itr] === 'P' && itr + k >= 0 && itr - k <= n) {
       let tempSlicedArr = arr.slice(k, itr + k + 1);
-      tempSlicedArr.includes("T") && count++;
+      tempSlicedArr.includes('T') && count++;
     }
     itr++;
   }
@@ -38,12 +38,12 @@ function catchThievesKGFG(arr, N, K) {
   let itr = 0;
   let count = 0;
   while (itr <= N - 1) {
-    if (arr[itr] === "P" && itr - K >= 0 && itr - K <= N) {
+    if (arr[itr] === 'P' && itr - K >= 0 && itr - K <= N) {
       let tempSlicedArr = arr.slice(itr - K, itr);
-      tempSlicedArr.includes("T") && count++;
-    } else if (arr[itr] === "P" && itr + K >= 0 && itr - K <= N) {
+      tempSlicedArr.includes('T') && count++;
+    } else if (arr[itr] === 'P' && itr + K >= 0 && itr - K <= N) {
       let tempSlicedArr = arr.slice(K, itr + K + 1);
-      tempSlicedArr.includes("T") && count++;
+      tempSlicedArr.includes('T') && count++;
     }
     itr++;
   }
@@ -55,9 +55,9 @@ const catchThieves = (arr, N, K) => {
   let thi = [];
   let pol = [];
   for (let i = 0; i < N; i++) {
-    if (arr[i] === "P") {
+    if (arr[i] === 'P') {
       pol.push(i);
-    } else if (arr[i] === "T") {
+    } else if (arr[i] === 'T') {
       thi.push(i);
     }
   }
@@ -82,9 +82,9 @@ function catchThievesGFG(arr, N, K) {
   let thi = [];
   let pol = [];
   for (let i = 0; i < N; i++) {
-    if (arr[i] == "P") {
+    if (arr[i] == 'P') {
       pol.push(i);
-    } else if (arr[i] == "T") {
+    } else if (arr[i] == 'T') {
       thi.push(i);
     }
   }
