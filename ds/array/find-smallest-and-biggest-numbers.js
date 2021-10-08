@@ -2,7 +2,7 @@
  * Find the Smallest and Biggest Numbers
  * https://edabit.com/challenge/Q3n42rEWanZSTmsJm
  *
- * Problem :
+ * Problem Statement:
  * Create a function that takes an array of numbers and
  * return both the minimum and maximum numbers, in that order.
  *
@@ -22,4 +22,4 @@
  * @param arr Array from which we have to find minimum and
  * maximum values.
  */
-const minMaxK = (arr) => [Math.min(...arr), Math.max(...arr)];
+const minMaxK = arr => [Math.min(...arr), Math.max(...arr)];
