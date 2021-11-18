@@ -6,5 +6,5 @@ const sharedLettersK = (str1, str2) => {
       count++;
     }
   }
-  return count;
+  return;
 };
