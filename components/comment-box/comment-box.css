@@ -1,6 +1,10 @@
 .comment-box {
   display: flex;
   flex-direction: column;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 10px;
 }
 .comment-box__title {
 }
