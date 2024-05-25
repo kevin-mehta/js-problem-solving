@@ -11,4 +11,5 @@
 .comment-box__summary {
 }
 .comment-box__button {
+  align-self: flex-start;
 }
