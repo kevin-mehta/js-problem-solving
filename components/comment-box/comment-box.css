@@ -1,4 +1,10 @@
-.comment-box {}
-.comment-box__summary {}
-.comment-box__caption {}
-.comment-box__button {}
+.comment-box {
+  display: flex;
+  flex-direction: column;
+}
+.comment-box__title {
+}
+.comment-box__summary {
+}
+.comment-box__button {
+}
