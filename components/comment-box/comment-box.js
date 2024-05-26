@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   console.log('DOM loaded.');
+  let i = 1;
 
   let eleReplyButton = document.getElementById('btnReply');
   eleReplyButton.addEventListener('click', (event) => {
     console.log('Reply button clicked.');
 
     document.getElementById('postBox').innerHTML += `
-    <div class="comment-box"><input class="comment-box__name" type="text" placeholder="Your name" />
+    <div class="comment-box-{i}"><input class="comment-box__name" type="text" placeholder="Your name" />
 	<textarea
 	  class="comment-box__desc"
 	  cols="30"
