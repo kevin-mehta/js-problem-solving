@@ -1,4 +1,4 @@
-.comment-box {
+.post-box {
   display: flex;
   flex-direction: column;
   border: 1px solid darkgray;
@@ -6,10 +6,14 @@
   margin: 10px;
   padding: 5px 10px;
 }
-.comment-box__title {
+.post-box .post-box__title {
 }
-.comment-box__summary {
+.post-box .post-box__summary {
 }
-.comment-box__button {
+.post-box .post-box__button {
   align-self: flex-start;
+}
+.comment-box {
+  display: flex;
+  flex-direction: column;
 }
