@@ -13,3 +13,5 @@ function first6CharsInReverseK1(s) {
 function last7CharsOddPosK1(s) {
 	return s.split("").reverse().join("").slice(0, 7).split("").map((v, i, arr) => i%2 === 0 ? v : undefined).reverse().join("");
 }
+
+const first5CharsK2 = s => s.slice(0, 5);
