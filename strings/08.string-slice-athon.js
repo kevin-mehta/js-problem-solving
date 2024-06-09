@@ -35,3 +35,13 @@ const first6CharsInReverseK2 = (s) =>
     .reverse()
     .join('')
     .slice(s.length - 6);
+const last7CharsOddPosK2 = (s) =>
+  s
+    .split('')
+    .reverse()
+    .join('')
+    .slice(0, 7)
+    .split('')
+    .map((v, i, arr) => (i % 2 === 0 ? v : undefined))
+    .reverse()
+    .join('');
