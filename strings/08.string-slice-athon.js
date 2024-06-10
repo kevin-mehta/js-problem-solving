@@ -50,3 +50,5 @@ const first5Chars = (s) => s.slice(0, 5);
 const last5Chars = (s) => s.slice(-5);
 const allCharsFromBack = (s) => [...s].reverse().join('');
 const first6CharsInReverse = (s) => [...s.slice(0, 6)].reverse().join('');
+const last7CharsOddPos = (s) =>
+  [...s.slice(-8)].filter((a, b) => b % 2).join('');
