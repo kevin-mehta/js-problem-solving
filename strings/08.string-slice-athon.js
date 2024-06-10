@@ -45,3 +45,5 @@ const last7CharsOddPosK2 = (s) =>
     .map((v, i, arr) => (i % 2 === 0 ? v : undefined))
     .reverse()
     .join('');
+
+const first5Chars = (s) => s.slice(0, 5);
