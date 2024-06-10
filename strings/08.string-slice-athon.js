@@ -47,3 +47,4 @@ const last7CharsOddPosK2 = (s) =>
     .join('');
 
 const first5Chars = (s) => s.slice(0, 5);
+const last5Chars = (s) => s.slice(-5);
