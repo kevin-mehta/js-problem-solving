@@ -48,3 +48,4 @@ const last7CharsOddPosK2 = (s) =>
 
 const first5Chars = (s) => s.slice(0, 5);
 const last5Chars = (s) => s.slice(-5);
+const allCharsFromBack = s => [...s].reverse().join('');
