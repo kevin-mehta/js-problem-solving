@@ -1,3 +1,4 @@
+/* Solution-1 by Kevin Mehta. */
 function first5CharsK1(s) {
   return s.slice(0, 5);
 }
