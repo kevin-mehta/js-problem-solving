@@ -27,6 +27,7 @@ function last7CharsOddPosK1(s) {
     .join('');
 }
 
+/* Solution-2 by Kevin Mehta. */
 const first5CharsK2 = (s) => s.slice(0, 5);
 const last5CharsK2 = (s) => s.slice(-5);
 const allCharsFromBackK2 = (s) => s.split('').reverse().join('');
