@@ -1,6 +1,9 @@
-function first5Chars(s) {
+function first5CharsK1(s) {
 	return s.slice(0, 5)
 }
-function last5Chars(s) {
+function last5CharsK1(s) {
 	return s.slice(-5);
+}
+function allCharsFromBackK1(s) {
+	return s.split("").reverse().join("");
 }
