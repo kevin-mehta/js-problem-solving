@@ -7,3 +7,6 @@ function last5CharsK1(s) {
 function allCharsFromBackK1(s) {
 	return s.split("").reverse().join("");
 }
+function first6CharsInReverseK1(s) {
+	return s.split("").reverse().join("").slice(s.length-6);
+}
