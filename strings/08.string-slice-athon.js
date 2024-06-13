@@ -1,6 +1,6 @@
 function first5Chars(s) {
 	return s.slice(0, 5)
 }
-function challenge2(s) {
+function last5Chars(s) {
 	return s.slice(-5);
 }
