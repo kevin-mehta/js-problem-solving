@@ -25,6 +25,14 @@
  * 
  * Notes:
  * Rounding not required.
+ * 
+ * Test Cases:
+ * Test.assertSimilar(factory(15)([30, 45, 60]), [2, 3, 4])
+ * Test.assertSimilar(factory(2)([2, 4, 6]), [1, 2, 3])
+ * Test.assertSimilar(factory(6)([60, 30]), [10, 5])
+ * Test.assertSimilar(factory(7)([14, 21, 49]), [2, 3, 7])
+ * Test.assertSimilar(factory(5)([10, 5, 20]), [2, 1, 4])
+ * Test.assertSimilar(factory(10)([100, 10, 60]), [10, 1, 6])
  */
 function factory1(num) {
   return function (arrDividends) {
