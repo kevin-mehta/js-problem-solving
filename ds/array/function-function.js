@@ -6,4 +6,6 @@ function factory1(num) {
   };
 }
 
-const factory = (n) => (arr) => arr.map((v) => v / n);
+const factory2 = (n) => (arr) => arr.map((v) => v / n);
+
+const factory = n => arr => arr.map(v => v / n);
