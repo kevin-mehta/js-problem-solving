@@ -22,12 +22,28 @@
  *
  * Example II:
  * const s = "0123456789"
- * 
+ *
  * Notes:
  * Check the Tests tab for more examples.
  * See the Resources tab for further information on learning string slicing.
  * You may use methods other than slice() as needed to complete some of the challenges.
  * All test cases follow the same slicing pattern as the above example.
+ *
+ * Test Cases:
+ * var txt = 'abcdefghijklmnopqrstuvwxyz'
+ * var nums = '0123456789'
+ *
+ * Test.assertEquals(challenge1(txt), 'abcde')
+ * Test.assertEquals(challenge2(txt), 'vwxyz')
+ * Test.assertEquals(challenge3(txt), 'zyxwvutsrqponmlkjihgfedcba')
+ * Test.assertEquals(challenge4(txt), 'fedcba')
+ * Test.assertEquals(challenge5(txt), 'tvxz')
+ *
+ * Test.assertEquals(challenge1(nums), '01234')
+ * Test.assertEquals(challenge2(nums), '56789')
+ * Test.assertEquals(challenge3(nums), '9876543210')
+ * Test.assertEquals(challenge4(nums), '543210')
+ * Test.assertEquals(challenge5(nums), '3579')
  */
 
 /* Solution-1 by Kevin Mehta. */
