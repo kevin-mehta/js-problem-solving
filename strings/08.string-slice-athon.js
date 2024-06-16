@@ -22,6 +22,12 @@
  *
  * Example II:
  * const s = "0123456789"
+ * 
+ * Notes:
+ * Check the Tests tab for more examples.
+ * See the Resources tab for further information on learning string slicing.
+ * You may use methods other than slice() as needed to complete some of the challenges.
+ * All test cases follow the same slicing pattern as the above example.
  */
 
 /* Solution-1 by Kevin Mehta. */
