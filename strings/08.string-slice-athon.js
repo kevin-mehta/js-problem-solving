@@ -11,7 +11,7 @@
  * Problem Statement:
  * This challenge has five miniature exercises to help practice proficiency in string slicing.
  * Check the examples below for a visual indicator of how to slice the strings. Good luck!
- * 
+ *
  * Example I:
  * const s = "abcdefghijklmnopqrstuvwxyz"
  * challenge1(s) ➞ "abcde"	// Pluck first 5 characters of the string.
@@ -19,6 +19,9 @@
  * challenge3(s) ➞ "zyxwvutsrqponmlkjihgfedcba"	// Pluck all characters in the string from back.
  * challenge4(s) ➞ "fedcba"	// Pluck first 6 characters in the string (start with 6th character and go backwards).
  * challenge5(s) ➞ "tvxz"		// Take last 7 characters and only return odd positioned ones.
+ *
+ * Example II:
+ * const s = "0123456789"
  */
 
 /* Solution-1 by Kevin Mehta. */
