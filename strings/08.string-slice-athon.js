@@ -1,3 +1,18 @@
+/**
+ * String Slice-athon
+ * Published by Mubashir Hassan in JavaScript
+ *
+ * URL:
+ * https://edabit.com/challenge/CFswwYtpKgSvMuYcS
+ *
+ * Tags:
+ * language_fundamentals, strings
+ *
+ * Problem Statement:
+ * This challenge has five miniature exercises to help practice proficiency in string slicing.
+ * Check the examples below for a visual indicator of how to slice the strings. Good luck!
+ */
+
 /* Solution-1 by Kevin Mehta. */
 function first5CharsK1(s) {
   return s.slice(0, 5);
